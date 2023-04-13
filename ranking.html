@@ -1,34 +1,79 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>TP-Programacion</title>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="style.css">
 	</head>
-	<body>
+	<body class="rankingBody">
 		<header>
-			<nav>
-				<ul>
-					<li style="display: inline;">
-						<a href="index.html">• Inicio</a>
-					</li>
-					<li style="display: inline;">
-						<a href="register.html">• Registrarse</a>
-					</li>
-					<li style="display: inline;">
-						<a href="ranking.html">• Ranking</a>
-					</li>
-				</ul>
+			<nav class="navbar navbar-expand-lg rankingNavbar">
+			  <div class="container-fluid">
+			    <a class="navbar-brand"  style="color: white;" href="index.html">Inicio</a>
+			    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			      <span class="navbar-toggler-icon"></span>
+			    </button>
+			    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+			      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+			        <li class="nav-item">
+			          <a class="nav-link active" style="color: white;" aria-current="page" href="register.html">Registrarse</a>
+			        </li>
+			        <li class="nav-item">
+			        	<strong>
+			          <a class="nav-link" style="color: white;" aria-current="page" href="ranking.html">Ranking</a>
+			            </strong>
+			        </li>
+			      </ul>
+			    </div>
+			  </div>
 			</nav>
 		</header>
-		<h4>TOP MEJORES PELICULAS</h4>
-			<ol>
-				<li>Interestelar</li>
-				<li>Jurassic Park/World</li>
-				<li>Indiana Jones</li>
-				<li>Regresar al Futuro</li>
-				<li>Top Gun</li>
-			</ol>
+		<center>
+		<div class="card border-danger mb-3 rankingContainer" style="max-width: 24rem; margin-top: 80px;">
+			<strong>
+		  <div class="card-header"><h5 class="item4">Ranking de las Mejores Peliculas de los ultimos años</h5></div>
+		  <div class="card-body">
+		    <ul class="list-group">
+			  <li class="list-group-item item3">Interestelar</li>
+			  <li class="list-group-item item3">Jurassic Park/World</li>
+			  <li class="list-group-item item3">Indiana Jones</li>
+			  <li class="list-group-item item3">Regresar al Futuro</li>
+			  <li class="list-group-item item3">Top Gun</li>
+			</ul>
+		  </div>
+		  </strong>
+		</div>
+		</center>
+		
+		
 	<footer>
-		<h4>Badilla Luciano, 2°1°, Programacion II, 2023</h4>
+		
+			  <div class="container-fluid rankingFooter">
+			  		<h1 style="color: white;">Programacion II - HTML - Bootstrap</h1>
+			  		<ul class="list">
+			  			<li class="title2"><h3>Alumno:</h3>
+			  				<ul>
+			  					<li><p class="item2">Luciano Badilla</p></li>
+			  				</ul>
+			  			</li>
+			  			<li class="title2"><h3>Curso:</h3>
+			  				<ul>
+			  					<li><p class="item2">2°1°</p></li>
+			  				</ul>
+			  			</li>
+			  			<li class="title2"><h3>Año:</h3>
+			  				<ul>
+			  					<li><p class="item2">2023</p></li>
+			  				</ul>
+			  			</li>
+
+			  		</ul>
+			  	</div>
+		    
+		  
 	</footer>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 	</body>
 </html>
